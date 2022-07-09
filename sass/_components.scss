@@ -45,17 +45,27 @@ $color-main: #0075FF;
 }
 
 .main-menu {
+  margin-bottom: 0;
   li {
-    font-size: 0.5rem;
+    font-size: 0.75rem;
     list-style: none;
     display: inline;
+    margin-right: 2rem;
+    a {
+      color: #000;
+      text-decoration: none ;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
   }
 }
 
 .icon-sm {
   i {
-    font-size: 0.75rem;
-    padding: 0.1rem 0.25rem;
+    font-size: 1.25rem;
+    padding: 0.4rem 0.65rem;
     color: $color-main;
     border-radius: 50%;
     box-shadow: 0 0 10px #00000040;
@@ -68,16 +78,44 @@ $color-main: #0075FF;
     .icon {
     color: $color-main;
     font-size: 10rem;
+    text-align: center;
   }
   .description {
     .title {
       font-size: 2rem;
+      text-align: center;
     }
     .text {
       color: #888;
+      font-weight: 600;
+      text-align: center;
 
     }
   }
+  .cta {
+    margin-top: 3rem;
+    color: $color-main;
+    font-weight: 600;
+    text-align: center;
+  }
 } 
+
+.icon-desc {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+   justify-content: center;
+  .icon {
+    color: $color-main;
+    font-size: 10rem;
+    padding: 0;
+  }
+  .title {
+    margin-top: -2rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+  }
+}
 
  
