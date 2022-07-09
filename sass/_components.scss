@@ -62,4 +62,22 @@ $color-main: #0075FF;
   }
 } 
 
+.feature {
+  display: flex;
+  flex-direction: column;
+    .icon {
+    color: $color-main;
+    font-size: 10rem;
+  }
+  .description {
+    .title {
+      font-size: 2rem;
+    }
+    .text {
+      color: #888;
+
+    }
+  }
+} 
+
  

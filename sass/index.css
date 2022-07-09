@@ -41,4 +41,19 @@
   color: #0075FF;
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2509803922);
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+}
+.feature .icon {
+  color: #0075FF;
+  font-size: 10rem;
+}
+.feature .description .title {
+  font-size: 2rem;
+}
+.feature .description .text {
+  color: #888;
 }/*# sourceMappingURL=index.css.map */
