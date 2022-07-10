@@ -50,7 +50,7 @@ $color-main: #0075FF;
     font-size: 0.75rem;
     list-style: none;
     display: inline;
-    margin-right: 2rem;
+    margin-right: 2rem ;
     a {
       color: #000;
       text-decoration: none ;
@@ -68,16 +68,16 @@ $color-main: #0075FF;
     padding: 0.4rem 0.65rem;
     color: $color-main;
     border-radius: 50%;
-    box-shadow: 0 0 10px #00000040;
+    box-shadow: 0 0 10px #00000040; 
   }
 } 
 
-.feature {
+.benefit {
   display: flex;
   flex-direction: column;
-    .icon {
+    i {
     color: $color-main;
-    font-size: 10rem;
+    font-size: 7.5rem;
     text-align: center;
   }
   .description {
