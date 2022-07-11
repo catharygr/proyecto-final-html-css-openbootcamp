@@ -9,6 +9,7 @@
 }
 
 $color-main: #0075FF;
+$color-footer: #f4f8fe;
 
 .btn-main {
   @include btn-base();
@@ -63,7 +64,7 @@ $color-main: #0075FF;
 }
 
 .icon-sm {
-  i {
+   i {
     font-size: 1.25rem;
     padding: 0.4rem 0.65rem;
     color: $color-main;
@@ -105,16 +106,16 @@ $color-main: #0075FF;
   flex-direction: column;
   align-items: center;
    justify-content: center;
-  .icon {
+  i {
     color: $color-main;
     font-size: 10rem;
     padding: 0;
   }
   .title {
-    margin-top: -2rem;
+    margin-top: -1 rem;
     font-size: 1.5rem;
     font-weight: 600;
-    text-align: center;
+    
   }
 }
 
